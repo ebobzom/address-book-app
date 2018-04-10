@@ -1,0 +1,145 @@
+/*general style rules*/
+
+body
+{
+	padding:0px;
+	margin:0px;
+	color: brown;
+	background-image: url(img/marivi-pazos-229894-unsplash.jpg);
+	background-size: cover;
+	
+}
+
+h3
+{
+	text-align: center;
+}
+
+
+button
+{
+	padding:8px;
+	border-bottom-style: inset;
+	border-radius: 10px;
+}
+
+input
+{
+	height: 20px;
+	width: 310px;
+	margin-bottom: 15px;
+}
+
+h1
+{
+	text-align: center;
+}
+
+h2
+{
+	text-align: center;
+}
+
+span
+{
+	background-color:chocolate;
+	align-content:center;
+	padding: 6px;
+	width: 100px;
+	margin-right: 15px;
+	font-family: sans-serif;
+	border-radius: 12px;
+}
+em
+{
+	color:red;
+}
+
+p[class=paragraphs]
+{
+	color:black;
+	padding:0px;
+}
+
+p:not([class]):hover
+{
+	background-color: aqua;
+	padding: 8px;
+	background-color: burlywood;
+}
+
+p:not([class])
+{
+	padding-left: 10px;
+	text-align: left;
+	color:darkblue;
+	border-bottom-style:solid;
+	transition-property: background;
+	transition-duration: 1s;
+}
+
+
+/*contact column*/
+.contactView
+{
+	width: 400px;
+	background-color: darkgrey;
+	border-radius: 5px;
+	float:left;
+	margin:20px;
+		
+}
+
+/*main view column*/
+.mainView
+{
+	width: 400px;
+	float: left;
+}
+
+
+.contactDetail
+{
+	background-color: darkgrey;
+	border-radius: 5px;
+	display:none;
+}
+
+
+.updated
+{
+	display:none;
+}
+
+.editContact
+{
+	background-color: darkgrey;
+	padding: 10px;
+	border-radius: 5px;
+	position: absolute;
+	left: 850px;
+	left: 870px;
+	bottom: 100px;
+	display: none;
+}
+
+
+.paragraphs
+{
+	padding-left: 10px;
+	text-align: center;
+	color:blue;
+}
+
+.clearFloat
+{
+	clear:both;
+}
+.deleteAllContact
+{
+	font-size: 20px;
+	position: absolute;
+	left: 1000px;
+	bottom: 545px;
+	
+}

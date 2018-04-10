@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Keeper</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Contact Keeper App</h1>
+	<article>
+		<div class="contactView">
+			<h3>Your Contacts</h3>
+		</div>
+		<div class="mainView">
+			<div class="addContact">
+				<h2>Add Contact</h2>
+				<p class="paragraphs"><span>First Name:</span> <input type="text" class="firstName"></p>
+				<p class="paragraphs"><span>Last Name: </span><input type="text" class="lastName"></p>
+				<p class="paragraphs"><span>E-mail Acct:</span> <input type="email" class="email"></p>
+				<p class="paragraphs"><span>Phone Number:</span> <input type="text" class="phoneNumber"></p>
+				<p class="paragraphs"><button>ADD CONTACT</button></p>
+			</div>
+			<div class="contactDetail">
+				<h2>Contact Detail</h2>
+				<p class="paragraphs"><span>First Name:</span><span class="fName"></span></p>
+				<p class="paragraphs"><span>Last Name:</span><span class="lName"></span></p>
+				<p class="paragraphs"><span>E-mail Acct:</span><span class="mail"></span></p>
+				<p class="paragraphs"><span>Phone Number:</span><span class="pNumber"></span></p>
+				<p class="paragraphs"><button class="deleteContact">DELETE CONTACT</button> <button class="edit">EDIT CONTACT</button></p>
+			</div>
+			<div class="editContact">
+				<h2>Edit Contact</h2>
+				<em>***Please Fill All Fields***</em>
+				<p class="paragraphs"><span>First Name:</span> <input type="text" class="firstNameDetail"></p>
+				<p class="paragraphs"><span>Last Name: </span><input type="text" class="lastNameDetail"></p>
+				<p class="paragraphs"><span>E-mail Acct:</span> <input type="email" class="emailDetail"></p>
+				<p class="paragraphs"><span>Phone Number:</span> <input type="text" class="phoneNumberDetail"></p>
+				<p class="paragraphs"><button class="updateContact">UPDATE CONTACT</button></p>
+			</div>
+			<p class="paragraphs updated"><span>CONTACT UPDATED SUCCESFULLY</span></p>
+		</div>
+		<div class="clearFloat"></div>
+		<button class= "deleteAllContact">DELETE ALL CONTACTS</button>
+		
+	</article>
+	
+	<script src="app.js"></script>
+</body>
+</html>
